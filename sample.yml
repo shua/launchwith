@@ -1,0 +1,8 @@
+app:
+  addr: http://something.com
+  port: 8080
+  use_cache: true
+metrics:
+  addr: metrics.local
+  port: 3030
+  should_do: "${DO_THE_THING}"
